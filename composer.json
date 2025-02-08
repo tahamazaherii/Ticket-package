@@ -1,0 +1,30 @@
+{
+    "name": "tahamazaheri/Ticket",
+    "description": "A Laravel package for creating Ticket ",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "Taha\\Ticket\\": "src/"
+      }
+    },
+    "require": {
+      "php": ">=7.4"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Taha\\Ticket\\TicketServiceProvider"
+        ]
+      }
+    },
+    "scripts": {
+      "post-install-cmd": [
+          "Taha\\Ticket\\Installer::controllersInstall"
+      ],
+      
+      "post-update-cmd": [
+          "Taha\\Ticket\\Installer::controllersInstall"
+      ]
+  }
+  }
