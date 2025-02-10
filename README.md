@@ -32,3 +32,11 @@ php artisan make:migration
 ```bash
 php artisan db:seed
 ```
+
+## Contributing
+
+Feel free to fork this repository and submit pull requests with improvements.
+
+## License
+
+This package is open-source and available under the MIT License.
