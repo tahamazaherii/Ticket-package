@@ -26,7 +26,7 @@ php artisan vendor:publish --tag=Ticket --force
 ```
 And then write this command for migration:
 ```bash
-php artisan make:migration
+php artisan migrate
 ```
 #### (Optional) Seed the Database
 ```bash
